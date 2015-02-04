@@ -1,0 +1,58 @@
+.logo{
+    float:left;
+    color:red;
+    font-size:16px;
+    font-family: 'Noto Sans CJK KR';
+    font-weight:600;
+    margin-left:90px;
+    margin-top:55px;
+}
+.menu ul{
+    margin-top:55px;
+    margin-right:90px;
+    float:right;
+}
+.menu ul li {
+    list-style-type:none;
+    float:left;
+    padding:0 0 0 30px;
+    color:white;
+    font-size:16px;
+    font-family: 'Noto Sans CJK KR';
+    font-weight:200;
+}
+.header{
+    position:relative;
+    width:100%;
+}
+.line{
+    position:absolute;
+    height:1px;
+    top:120px;
+    left:0;
+    right:0;
+    background: rgba(255,255,255,0.2);
+    margin:0 90px;
+    overflow:hidden;
+}
+.bg{
+    background:url('images/bg_pic.png');
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    border:2px solid #ff0000;
+    width:80;
+    height:540px;
+    z-index:-1;
+}
+.bg h1{
+    color:white;
+    font-family: 'Noto Sans CJK KR';
+    font-weight:100;
+    font-size:18px;
+    text-align:left;
+    letter-spacing:-1px;
+    line-height:24px;
+    margin:260px 0 0 90px;
+    position:absolute;
+}

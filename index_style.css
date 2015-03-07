@@ -89,13 +89,9 @@ body{
     -webkit-animation:14s transitiontxtAnimation1 infinite;
 }
 @-webkit-keyframes transitiontxtAnimation1{
-0%{opacity:1;}
+0%{opacity:0;}
 14%{opacity:1;}
 28%{opacity:0;}
-42%{opacity:0;}
-56%{opacity:0;}
-70%{opacity:0;}
-84%{opacity:0;}
 100%{opacity:0;}
 }
 .text .left2{
@@ -111,12 +107,9 @@ body{
 }
 @-webkit-keyframes transitiontxtAnimation2{
 0%{opacity:0;}
-14%{opacity:1;}
+14%{opacity:0;}
 28%{opacity:1;}
 42%{opacity:0;}
-56%{opacity:0;}
-70%{opacity:0;}
-84%{opacity:0;}
 100%{opacity:0;}
 }
 .text .left3{
@@ -133,7 +126,7 @@ body{
 @-webkit-keyframes transitiontxtAnimation3{
 0%{opacity:0;}
 14%{opacity:0;}
-28%{opacity:1;}
+28%{opacity:0;}
 42%{opacity:1;}
 56%{opacity:0;}
 70%{opacity:0;}
@@ -155,7 +148,7 @@ body{
 0%{opacity:0;}
 14%{opacity:0;}
 28%{opacity:0;}
-42%{opacity:1;}
+42%{opacity:0;}
 56%{opacity:1;}
 70%{opacity:0;}
 84%{opacity:0;}
@@ -177,7 +170,7 @@ body{
 14%{opacity:0;}
 28%{opacity:0;}
 42%{opacity:0;}
-56%{opacity:1;}
+56%{opacity:0;}
 70%{opacity:1;}
 84%{opacity:0;}
 100%{opacity:0;}
@@ -199,7 +192,7 @@ body{
 28%{opacity:0;}
 42%{opacity:0;}
 56%{opacity:0;}
-70%{opacity:1;}
+70%{opacity:0;}
 84%{opacity:1;}
 100%{opacity:0;}
 }
@@ -221,7 +214,7 @@ body{
 42%{opacity:0;}
 56%{opacity:0;}
 70%{opacity:0;}
-84%{opacity:1;}
+84%{opacity:0;}
 100%{opacity:1;}
 }
 

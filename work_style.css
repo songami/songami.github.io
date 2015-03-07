@@ -96,6 +96,7 @@ body{
 .pic img{
     width:100%;
     vertical-align:top;
+    float:right;
 }
 @-webkit-keyframes opaAnimation{
 0%{opacity:0;}
@@ -253,7 +254,6 @@ body{
     .line{
     width:86%;
     -webkit-animation:0s;
-}
     }
     .work1 .pic, .work2 .pic, .work3 .pic, .work4 .pic, .work5 .pic{
     float:none;

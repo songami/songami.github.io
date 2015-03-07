@@ -46,6 +46,19 @@ body{
     text-decoration:underline;
     transition:0.2s all ease-out;
 }
+.aboutMe{
+    -webkit-animation: 0.5s moveAnimation;
+}
+.works{
+    -webkit-animation: 0.8s moveAnimation;
+}
+
+@-webkit-keyframes moveAnimation{
+0%{transform:translate(0, 20px);
+    opacity:0;}
+100%{transform:translate(0, 0);
+    opacity:1;}
+}
 .menuTop a:hover{
     color:red;
 }
@@ -63,6 +76,12 @@ body{
     text-decoration:none;
     line-height: 26px;
 }
+.a1{-webkit-animation: 1s moveAnimation;}
+.a2{-webkit-animation: 1.2s moveAnimation;}
+.a3{-webkit-animation: 1.3s moveAnimation;}
+.a4{-webkit-animation: 1.4s moveAnimation;}
+.a5{-webkit-animation: 1.5s moveAnimation;}
+
 .a1, .a2, .a3, .a4, .a5{
     position:relative;
 }
@@ -82,6 +101,7 @@ body{
     opacity:1;
     -webkit-animation:0.2s drawAnimation;
 }
+
 .a2:hover .line2{
     opacity:1;
     -webkit-animation:0.2s drawAnimation;

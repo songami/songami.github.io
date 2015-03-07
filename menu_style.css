@@ -1,0 +1,105 @@
+::selection {
+    background-color:red;
+    color:white;
+}
+::-moz-selection {
+    background-color:red;
+    color:white;
+}
+html, body{
+    margin:0;
+    height:100%;
+}
+body{
+    background-color:black;
+}
+.title a{
+    text-decoration:none;
+    float:left;
+    font-family:"roboto condensed", "helvetica", "arial";
+    font-weight:300;
+    font-size:18px;
+    letter-spacing:-0.5px;
+    color:white;
+    padding:30px 7%;
+}
+.title span{
+    font-weight:500;
+    text-decoration:underline;
+    letter-spacing: 0;
+}
+.title span:hover {
+    color:red;
+}
+.closeMenu{
+    float:right;
+    padding:48px 7% 41px;
+}
+.menu{
+    float:right;
+}
+.menuTop a{
+    font-family: "roboto condensed", "helvetica", "arial";
+    font-size: 24px;
+    font-weight:400;
+    color:white;
+    text-decoration:underline;
+    transition:0.2s all ease-out;
+}
+.menuTop a:hover{
+    color:red;
+}
+.aboutMe{
+    padding:48px 0 8px;
+}
+.menuBottom{
+    padding-top:20px;
+}
+.menuBottom a{
+    font-family: "roboto condensed", "helvetica", "arial";
+    font-size: 16px;
+    font-weight:200;
+    color:white;
+    text-decoration:none;
+    line-height: 26px;
+}
+.a1, .a2, .a3, .a4, .a5{
+    position:relative;
+}
+.line1, .line2, .line3,
+.line4, .line5{
+    position:absolute;
+    top:11px;
+    width:220px;
+    height:1px;
+    background-color:red;
+    z-index:-2;
+    opacity:0;
+    transition:0.2s all ease-out;
+}
+
+.a1:hover .line1{
+    opacity:1;
+    -webkit-animation:0.2s drawAnimation;
+}
+.a2:hover .line2{
+    opacity:1;
+    -webkit-animation:0.2s drawAnimation;
+}
+.a3:hover .line3{
+    opacity:1;
+    -webkit-animation:0.2s drawAnimation;
+}
+.a4:hover .line4{
+    opacity:1;
+    -webkit-animation:0.2s drawAnimation;
+}
+.a5:hover .line5{
+    opacity:1;
+    -webkit-animation:0.2s drawAnimation;
+}
+
+@-webkit-keyframes drawAnimation{
+    0%{width:0;}
+    100%{width:220px;}
+}

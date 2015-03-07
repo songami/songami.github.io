@@ -237,54 +237,17 @@ body{
     height:111px;
     top:400px;
     right:7%;
-    -webkit-animation:10s diaAnimation infinite;
+    -webkit-animation:14s diaAnimation infinite;
 }
 @-webkit-keyframes diaAnimation{
-0%{
-    background-image:url(images/bg_diamond1.png);
-}
-14%{
-    background-image:url(images/bg_diamond1.png);
-}
-15%{
-    background-image:url(images/bg_diamond2.png);
-}
-29%{
-    background-image:url(images/bg_diamond2.png);
-}
-30%{
-    background-image:url(images/bg_diamond3.png);
-}
-44%{
-    background-image:url(images/bg_diamond3.png);
-}
-45%{
-    background-image:url(images/bg_diamond4.png);
-}
-59%{
-    background-image:url(images/bg_diamond4.png);
-}
-60%{
-    background-image:url(images/bg_diamond5.png);
-}
-74%{
-    background-image:url(images/bg_diamond5.png);
-}
-75%{
-    background-image:url(images/bg_diamond6.png);
-}
-89%{
-    background-image:url(images/bg_diamond6.png);
-}
-90%{
-    background-image:url(images/bg_diamond7.png);
-}
-99%{
-    background-image:url(images/bg_diamond7.png);
-}
-100%{
-    background-image:url(images/bg_diamond1.png);
-}
+0%{background-image:url(images/bg_diamond1.png);}
+14%{background-image:url(images/bg_diamond2.png);}
+28%{background-image:url(images/bg_diamond3.png);}
+42%{background-image:url(images/bg_diamond4.png);}
+56%{background-image:url(images/bg_diamond5.png);}
+70%{background-image:url(images/bg_diamond6.png);}
+84%{background-image:url(images/bg_diamond7.png);}
+100%{background-image:url(images/bg_diamond1.png);}
 }
 .content1{
     width:100%;
